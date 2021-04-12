@@ -1,17 +1,18 @@
 <?php
 
-class Node 
+class Node
 {
-  public $data;
-  public $next;
+    public $data;
+    public $next;
 
-  public function __construct($data)
-  {
-    $this->data = $data;
-    $this->next = null;
-  }
+    public function __construct($data)
+    {
+        $this->data = $data;
+        $this->next = null;
+    }
 
-  function readNode() {
-    return $this->data;
-  }
+    function readNode()
+    {
+        return $this->data;
+    }
 }
