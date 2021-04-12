@@ -33,7 +33,5 @@ $linkedList->addLast($data3);
 
 echo "<pre>";
 var_dump($linkedList->printList());
-echo "<br>";
-echo $linkedList->indexOf($data1);
-var_dump($linkedList->printList());
-echo "<br>";
+$cloneLinkedList = $linkedList->clone();
+var_dump($cloneLinkedList->printList());
